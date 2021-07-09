@@ -1,0 +1,72 @@
+/*Estilizando o cabeçalho da página*/
+.cabecalho{
+    background-color: #FFCA04;
+    text-align: center;
+    height: 100px;
+    position: relative;
+    top: -14px;
+    padding-top: 10px;
+}
+
+/*Estilizando os links dos cabeçalhos*/
+header a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+}
+header a:hover{
+    color: yellow;
+    background-color: white;
+}
+
+div h5{
+    color: #626266;
+    width: 126px;
+    background-color:#CECACD;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+/*Estilizando os componentes do menu lateral direito*/
+.postagens{
+    float: right;
+    position: absolute;
+    right: 130px;
+    background-color: white;
+    padding-left: 19px;
+}
+
+.categorias{
+    display: block;
+    text-decoration: none;
+    color: orangered;
+}
+#post{
+    color: orangered;
+    font-size: 22px;
+}
+
+.conteudo{
+    width: 700px;
+    position: absolute;
+    left: 200px;
+    background-color: white;
+    padding-left: 19px;
+}
+
+.conteudo a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.footer{
+    font-size: 19px;
+    background-color: #CECACD;
+    color: #626266;
+    padding: 0px 10px;
+    text-align: center;
+}
+body p{
+    color:black;
+}
